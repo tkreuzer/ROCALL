@@ -75,6 +75,12 @@
     ServiceMacro("EnumerateDriverEntries", 2)
     ServiceMacro("EnumerateKey", 6)
     ServiceMacro("EnumerateSystemEnvironmentValuesEx", 3)
+/*
+ * ReactOS system call definitions
+ * Source: ReactOS source code
+ * Author: Timo Kreuzer <timo.kreuzer@reactos.org>
+ * License: MIT (see LICENSE file in the root of this repository)
+ */
     ServiceMacro("EnumerateValueKey", 6)
     ServiceMacro("ExtendSection", 2)
     ServiceMacro("FilterToken", 6)
