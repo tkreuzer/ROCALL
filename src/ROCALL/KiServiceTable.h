@@ -1,3 +1,9 @@
+    /*
+     * ReactOS system call definitions
+     * Source: ReactOS source code
+     * Author: Timo Kreuzer <timo.kreuzer@reactos.org>
+     * License: MIT (see LICENSE file in the root of this repository)
+     */
     ServiceMacro("AcceptConnectPort", 6)
     ServiceMacro("AccessCheck", 8)
     ServiceMacro("AccessCheckAndAuditAlarm", 11)
