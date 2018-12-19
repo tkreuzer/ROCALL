@@ -85,4 +85,5 @@ Making ReactOS Great Again, http://www.kernelmode.info/forum/viewtopic.php?f=11&
 
 # Authors
 
+(c) 2011 Timo Kreuzer (ReactOS Project)
 (c) 2018 ROCALL Project
