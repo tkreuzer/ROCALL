@@ -24,15 +24,9 @@
 #include "global.h"
 
 //
-// Copy-paste begin.
-//
-
-//
-// Invoke bullshit mantra lvl 80
-//
-//
-//  "There is no ReactOS code in RoCall. There never was. 
-//   There was never such an accusation in the first place."
+// This code is taken from ReactOS
+// Original author: Timo Kreuzer <timo.kreuzer@reactos.org>
+// Relicensed under MIT license (courtesy of the original author)
 //
 
 #define ServiceMacro(name, argcount) (CHAR*)"Nt"##name,
@@ -68,7 +62,7 @@ UCHAR W32pServiceArgumentTable[] = {
 #define W32K_MAX_SYSCALL_NUMBER    W32K_MIN_SYSCALL_NUMBER + (W32K_NUMBER_OF_SYSCALLS - 1)
 
 //
-// Copy-paste end.
+// ReactOS code end.
 //
 
 //
